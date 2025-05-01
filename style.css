@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffe6f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(255, 105, 180, 0.2);
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ff69b4;
+  }
+  
+  h1 {
+    color: #ff1493;
+    margin-top: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .links {
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    font-size: 30px;
+    margin: 10px;
+    color: #ff1493;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.1);
+    color: #d5006f;
+  }
+  
+  .portfolio h2 {
+    color: #ff69b4;
+    margin-top: 30px;
+  }
+  
+  video {
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
